@@ -1,4 +1,5 @@
 @echo off
-gcc code.c -o code.exe
-call code.exe
+set progname=code_01
+gcc %progname%.c -o %progname%.exe
+call %progname%.exe
 pause >nul
