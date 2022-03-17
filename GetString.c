@@ -10,7 +10,7 @@ main(void)
 
 	char buf[256] = "";
 
-	printf("Введите строку: ");
+	printf("РџСЂРёРІРµС‚ РЎР°РЅСЏ! : ");
 	fflush(stdout);
 	fflush(stdin);
 
@@ -26,10 +26,10 @@ main(void)
 		}
 
 		// print result
-		printf("Вы ввели строку %s\n", buf);
+		printf("пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ %s\n", buf);
 	}
 	else
-		puts("Возникла ошибка");
+		puts("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ");
 	
 	return 0;
 }
